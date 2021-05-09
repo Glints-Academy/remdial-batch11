@@ -3,7 +3,7 @@ function memberInRoom(names,sort) {
 }
 
 function test(fun, result) {
-    console.log(fun===result)
+    console.log(fun===result);
 }
 
 test(memberInRoom([],"AZ"), 'only you in this room');

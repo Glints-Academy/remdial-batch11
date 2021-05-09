@@ -11,7 +11,7 @@ Make a function that will showing the name of person who was joined the room, sh
 - sort parameter given to sorting the showing name, "AZ" parameter to sort A-Z, "ZA" parameter to sort Z-A
 - "You" always in the first order
 
-example : 
+example :  
 
 ```
 memberInRoom(['Romi', 'Beni']) # => You, Beni and Romi in this room

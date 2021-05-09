@@ -4,7 +4,7 @@ const find = (input) => {
 
 const test = (testCase, result) => {
     if (testCase !== result) return console.log(false);
-    return console.log(true);
+    return console.log(true)
 };
 
 test(find("10 9 2 5 1 2 4 0 56"),'56 10 4 9 2 4 5 1 ^ ')

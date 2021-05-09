@@ -9,7 +9,7 @@ Make a function that will showing the name of person who was joined the room, sh
 - maximum number for name showed is 3
 - if more than 5 person in rooms, show only 2 others member name then show only number for the rest
 
-example : 
+example :  
 
 ```
 memberInRoom(['Romi', 'Beni']) # => You, Romi and Beni in this room

@@ -14,7 +14,7 @@ set of Number separate with space | set of Number separate with space
 
 **_example:_**
 <br>
-Input: *`3 5 6 2 3 9 12 4 3 7`*
+Input: *`3 5 6 2 3 9 12 4 3 7`* 
 <br>
 Output: *`4 6 7 3 4 12 ^ 5 4 9`*
 

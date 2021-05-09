@@ -12,7 +12,7 @@ function duplicate(array) {
       if (testCase[i] !== result[i]) {
         return console.log(false);
       }
-      return console.log(true);
+      return console.log(true)
     }
   };
   
