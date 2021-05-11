@@ -5,6 +5,7 @@ function duplicate(array) {
   
   // do not change this code below
   const test = (testCase, result) => {
+    if (testCase && testCase.length) {
     testCase.sort();
     result.sort();
   
@@ -12,8 +13,10 @@ function duplicate(array) {
       if (testCase[i] !== result[i]) {
         return console.log(false);
       }
-      return console.log(true)
+      
     }
+    return console.log(true)
+  }
   };
   
   test(duplicate([1, 2, 3, 4, 5]), [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]);
